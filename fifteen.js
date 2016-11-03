@@ -31,7 +31,7 @@ window.onload = function() {
     display.style.width = "150px";
     display.style.height = "150px";
     display.style.backgroundSize = "100% 100%";
-    display.style.backgroundImage = "url('background1.jpg')";
+    display.style.backgroundImage = "url('background.jpg')";
 
 
 
