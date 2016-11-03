@@ -31,7 +31,7 @@ window.onload = function() {
     display.style.width = "150px";
     display.style.height = "150px";
     display.style.backgroundSize = "100% 100%";
-    display.style.backgroundImage = "url('Background1.jpg')";
+    display.style.backgroundImage = "url('background1.jpg')";
 
 
 
@@ -47,8 +47,8 @@ window.onload = function() {
     var select_button = document.createElement("select");
     for (var i = 1; i <= 4; i++) {
         var options = document.createElement("option");
-        options.value = "Background" + i + ".jpg";
-        options.text = "Background" + i;
+        options.value = "background" + i + ".jpg";
+        options.text = "background" + i;
         select_button.appendChild(options);
     };
     controls.appendChild(select_button);
